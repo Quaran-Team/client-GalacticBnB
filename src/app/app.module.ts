@@ -54,7 +54,7 @@ import { CalenderComponent } from './calender/calender.component';
 import { MainpgComponent } from './mainpg/mainpg.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { CovidComponent } from './header/covid/covid.component';
-import { SearchPageComponent } from './app/search-page/search-page.component';
+import { SearchPageComponent } from './search-page/search-page.component';
 import { LogoComponent } from './logo/logo.component';
 import { MoreFiltersComponent } from './more-filters/more-filters.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
@@ -62,7 +62,6 @@ import { CancelFlexComponent } from './cancel-flex/cancel-flex.component';
 import { GuestsSearchbarComponent } from './guests-searchbar/guests-searchbar.component';
 import { GuestExpandedComponent } from './guest-expanded/guest-expanded.component';
 import { ResultsComponent } from './results/results.component';
-
 
 @NgModule({
   declarations: [
@@ -115,9 +114,9 @@ import { ResultsComponent } from './results/results.component';
     GuestExpandedComponent,
     ResultsComponent,
   ],
-  imports: [ 
-    FormsModule,  
-    MbscModule, 
+  imports: [
+    FormsModule,
+    MbscModule,
     BrowserModule,
     RouterModule,
     HttpClientModule,

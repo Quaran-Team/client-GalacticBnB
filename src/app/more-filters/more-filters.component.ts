@@ -190,14 +190,16 @@ export class MoreFiltersComponent implements OnInit {
   };
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getFilterProperties();
+  }
 
-  getFilterProperties(): object {
+  getFilterProperties(): void {
     for (const stuff of this.moreFiltersSections) {
       for (const keys of stuff) {
         console.log(keys.toString());
       }
     }
-    return Object;
+    //return Object;
   }
 }
